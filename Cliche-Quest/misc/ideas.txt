@@ -1,0 +1,66 @@
+Idea #1: class system
+  Concept:
+    A class system, similar to games like Fire Emblem or Final Fantasy.
+    Different classes have different effects on the gameplay. (mages have higher magic power, but less physical power, brawlers have higher physical power, but less magic power, etc.)
+    Classes also have unique abilities exclusive to said class.
+
+  Notes:
+    Will need a new attribute in the character constructor, called "class".
+    character.class will be a string property. It will initially start as none ("").
+
+
+Idea #2: save system
+  Concept:
+    A save system, similar to most RPG games.
+    The game's progress would be saved after a prompt asking the player if they want to save.
+    This would help reduce frustration whenever a player exits.
+
+  Notes:
+    Will need several new functions.
+    This would have to be implemented late into the game.
+
+
+Idea #3: combining both routes
+  Concept:
+    Similar to other games, the player can choose to either be good or evil in the same playthrough, depending on their actions.
+
+  Notes:
+    Will need to rewrite the entire story.
+    The alignment question at the beginning would be removed.
+
+
+Idea #4: Mana/Magic Points
+  Concept:
+    Similar to other games (such as Final Fantasy), the player's spells cost mana.
+
+  Notes:
+    New functions.
+
+
+Idea #5: Spell Class Change
+  Concept:
+    Put spells into a single function.
+    They would be divided among various types (Damaging, Healing).
+
+  Notes:
+    New functions.
+
+Idea #6: Additional Spell/Item Types
+  Concept:
+    Other spell/item types, such as buffs, debuffs, or status ailments.
+
+  Notes:
+    New functions.
+
+Idea #7: Spell Range
+  Concept:
+    Spell range, depending on spell.
+    Some spells target more than one.
+
+  Notes:
+    New functions.
+    New properties in Spell Class.
+
+Idea #8: Summons
+
+Idea #9: Laser Blaster Weapon

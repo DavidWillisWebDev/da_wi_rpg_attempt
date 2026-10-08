@@ -1,0 +1,100 @@
+# DICTIONARIES
+# dictionaries in real life map (or associate) words with definitions
+# what is a definition?
+# a statement describing what a word means
+# in other words, a definition maps a word to a sentence
+
+# dictionaries in coding are really similar
+# dictionaries map certain data to other data
+
+# example:
+dictionary = {}
+dictionary['mean'] = "Having the quality of being disrespectful."
+dictionary['apple'] = "A sweet fruit which is typically red and round."
+
+# dictionaries are especially useful when you want to make "data tables"
+scores = {}
+scores['Dave'] = 100
+scores['Nate'] = 90
+scores['Link'] = 50
+
+# in dictionaries, the original data is called a "key"
+# and the data it is attached to is called the "value"
+
+# SYNTAX
+# to add or change an entry in a dictionary:
+# dictionary[key] = value
+
+# to get a value from the dictionary given a key:
+# dictionary[key]
+# will replace that with its value once it runs, i.e.
+
+print(scores['Dave']) # prints 100
+
+# dictionaries can map ANY key to ANY value
+employees = {}
+employees['Bob'] = ['2020-11-20', 18.60, 30]
+employees['Daisy'] = ['2022-01-30', 20.20, 28]
+
+
+# dictionaries are ONE WAY
+# meaning keys are mapped to values, but not vice versa
+# so i can ask a dictionary to get the value associated with a key
+# but i cannot "ask" a dictionary to get the key associated with a value
+
+# the reason for this is VERY simple
+# it is possible that two keys get mapped to the same value
+# using the school grades above, we could have two students with a score of 100
+scores['Billy'] = 100
+
+# now there are two keys in the dictionary that are mapped to 100
+# so its simply impossible to inquire like "what is the key associated with 100"
+
+"""
+dialogueMessages.append("Hello")
+dialogueMessages.append("Hahahaha")
+dialogueMessages.append("U r so lame")
+dialogueMessages.append("I have a better score than you in Tetris")
+dialogueMessages.append("I like burgers more than you do")
+"""
+
+# GRAPH AND TREE DATA STRUCTURES
+# Graphs - A map of relationships between unsorted objects
+# Trees - A series of items starting at a root that branches off to other items, always going downstream
+
+
+# RECURSION NOTES
+
+"""
+def recursiveFunction(number):
+  print(number)
+  if number > 900:
+    return
+  else:
+    recursiveFunction(number+1)
+recursiveFunction(0)
+"""
+
+"""
+recursion is when a function calls itself
+
+(!!) THINK RUSSIAN DOLLS (!!)
+
+the first thing you should consider when writing recursive functions ... BASE CASE! (AKA "exit condition"). This is how we quit/exit the recursive process; how we know when we are done. Usually an if statement.
+
+Recursion is useful when solving a problem involves solving the same problem at smaller scale.
+
+Recursion is an alternative to using loops; sometimes the problem is easier to solve using recursion, sometimes it is easier to solve using loops.
+
+Consider the "n x n" grid problem ... when drawing a grid that is n x n, it is the same as drawing a grid that is n-1 x n-1, plus adding the "L-shaped corner" in the top right. This is a good example of a problem where solving the problem involves solving a similar "sub-problem". 
+"""
+
+# for index in range(len(myList)):
+# suppose we have 5 enemies
+# len(self.enemies) is 5
+# we want to generate a list which gives all the numbers for the enemies they can attack
+# [1,2,3,4,5]
+
+# range(len(myList))
+# range(5)
+# [0,1,2,3,4]

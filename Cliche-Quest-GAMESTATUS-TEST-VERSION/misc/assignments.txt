@@ -1,0 +1,10 @@
+As a challenge this week, please try and make some functions for spells and items! For now, create these functions inside of the spell or item python file, but outside of the spell or item class. Please create at least three functions (you can do any combination of spells and items).
+
+For now, don't worry about making the spells/items work, but try and add code that manipulates the stats of one or more of the players or enemies. For now, you can assume that the function receives a variable called "target" (representing a single character object if the spell or item affects only one target), or a variable called "targets" (representing a list of character objects, if the spell or item affects multiple targets). For example, you might make a healing potion which increases health; you might make a special item which temporarily increases their attack stat; or you might make a damaging item which harms an enemy. You can also add spells too, which as I am sure you are aware can have many different effects.
+
+I leave it up to you. Try and interact with the stats of the characters (AKA properties of the objects) that are relevant to the item/spell.
+
+As a challenge this week, please try and develop more of your story/dialogue! Try to add branching dialogue choices! If you want, you can hook some of the Dialogue/Choice objects up with Battle objects (and vice versa), even if some of the components (especially Battle) aren't working correctly.
+
+This is where you really hit your stride and get to start rapidly developing the game! It was a fair amount of work to get to this point but it will pay off in making the rest of the game SO much easier to create than it would be without the structure we have in place.
+
