@@ -1,0 +1,8 @@
+How should we manage our inventory?
+
+Most RPG games have subcategories for items, whether they be equipment or items.
+You could further expand this with specific sections of items (Healing Items, Combat Items, Key Items, etc.).
+This also applies to equipment (Weapons, Armor, etc.).
+
+But how do we implement this system?
+

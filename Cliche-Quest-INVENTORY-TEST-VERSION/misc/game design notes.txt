@@ -1,0 +1,39 @@
+main.py - data and processes for the main game
+
+battle.py - data and processes for any individual battle ... needs to have a connecting eventNode for win and loss cases
+
+choices.py - data and proceses for any individual choices ... choice is usually going to be a question to the user ... every choice is connected to an eventNode
+
+dialogue.py - data and proceses for any individual dialogue
+
+character.py - data about characters
+
+eventNode.py - an event ... could be battle or dialogue ... needs to have a set of choices determining how this would branch off
+
+helper.py - contains helper functions that can be used by all files in the project
+
+
+"""
+# method 1 - make the list before the battle
+battleEnemies = [slime1, slime2, bat1, bat2]
+encounter = Battle(battleEnemies)
+
+# method 2 - make battle then add enemies
+encounter = Battle()
+encounter.addEnemy(slime1)
+encounter.addEnemy(slime2)
+encounter.addEnemy(bat1)
+encounter.addEnemy(bat2)
+"""
+
+# attacker Character deals their main attack to defender Character
+# implements damage formula 
+# def damage(attacker, defender):
+  # if attacker.strength > defender.health:
+    
+# Battle Description (i.e. enemy appearance, scenery, health)
+
+# Red Slime: 57 / 100 HP
+# Blue Slime: 42 / 80 HP
+
+
